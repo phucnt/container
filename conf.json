@@ -1,0 +1,10 @@
+{
+  "source": {
+      "include": [
+        "main/packages/sample:demo-component/client/components"
+    ],
+      "exclude": [ "myProject/lib/ignore.js" ],
+      "includePattern": ".+\\.js(doc|x)?$",
+      "excludePattern": "(^|\\/|\\\\)_"
+  }
+}

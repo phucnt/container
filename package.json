@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd main && meteor --settings config/dev/settings.json",
+    "doc": "jsdoc -c conf.json"
+  },
+  "author": "phuccntt1990@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "jsdoc": "^3.4.2"
+  }
+}
