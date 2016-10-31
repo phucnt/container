@@ -1,10 +1,12 @@
 Meteor.publishComposite('test', function() {
   return {
-    find() {
+    find: () => {
       return Demo.find({});
-    }, children: [{
-      find() {
-        return Counts.publish(this, 'test', Demo.find());
+    },
+    children: [{
+      find: () => {
+         Counts.publish(this, 'test', Demo.find({}));
+         return null;
       }
     }]
   }

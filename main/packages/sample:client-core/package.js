@@ -24,6 +24,7 @@ Package.onUse(function(api) {
     'meteorhacks:subs-manager@1.6.4',
     'reactive-var',
     'react-meteor-data',
+    'tmeasday:publish-counts@0.7.3',
     'sample:collection-demo',
   ], client)
   api.addFiles([
