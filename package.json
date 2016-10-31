@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "setup": "cd main && npm install",
     "server": "cd main && meteor --settings config/dev/settings.json",
     "doc": "jsdoc -c conf.json"
   },

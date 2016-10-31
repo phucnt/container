@@ -15,8 +15,12 @@ Package.onUse(function(api) {
   api.use([
     'sample:core',
     'sample:server-core',
+    'reywood:publish-composite@1.4.2',
+    'tmeasday:publish-counts'
+
   ]);
   api.addFiles([
-    'server/methods/test.js'
+    'server/methods/test.js',
+    'server/publications/test.js',
   ]);
 });

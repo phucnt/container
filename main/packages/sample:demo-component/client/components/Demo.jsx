@@ -1,5 +1,5 @@
 import React from 'react';
- class Demo extends React.Component {
+ class Demo1 extends React.Component {
   render() {
     return (
       <div>
@@ -8,4 +8,4 @@ import React from 'react';
     );
   }
 };
-this.Demo = Demo
+this.Demo1 = Demo1

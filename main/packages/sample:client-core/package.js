@@ -16,9 +16,15 @@ Package.onUse(function(api) {
   api.use([
     'kadira:flow-router@2.0.2',
     'templating',
+    'react-meteor-data',
+    'sample:collection-demo',
   ], client);
   api.imply([
     'templating',
+    'meteorhacks:subs-manager@1.6.4',
+    'reactive-var',
+    'react-meteor-data',
+    'sample:collection-demo',
   ], client)
   api.addFiles([
     'client/FR.js'

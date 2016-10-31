@@ -1,5 +1,7 @@
 Meteor.methods({
   test() {
-    console.log(Users);
+    Demo.insert({
+      name: 'test'
+    });
   }
 })
